@@ -4,9 +4,9 @@ I am an avid user of Tiktok, and often download Tiktok videos to my phone for ar
 
 1) **Separatepics.py** - Because Tiktok saves the videos in Android's camera roll, I had to find a way to separate my personal pictures and video from Tiktok videos. This script uses Python's OS subprocess to move my personal pictures and video to another folder called "pics."
 
-2) **renametest.py** - Sometimes in the process of transferring files, the metadata gets lost. This [makes it less annoying] by appending the date modified in front of the filename so I can keep the videos organized by date wherever I may move them.
+2) **renametest.py** - Appends the date modified in front of the filename so that the videos can be searched and organized by date.
 
-3) **writefilescsv.py** - I keep a Notion database of all the files so that I can tag and organize them. writefilescsv.py creates a .csv file with the filename and date modified of the newly tranferred pictures so that I can import it into the database.
+3) **writefilescsv.py** - I keep a Notion database of all the files so that I can tag and organize them. ``writefilescsv.py`` creates a .csv file with the filename and date modified of the newly tranferred pictures so that I can import it into the database.
 
 ---
 
