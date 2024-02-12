@@ -12,11 +12,11 @@ Here are 3 console scripts I use to put Tiktok videos in archival form:
 
 ## Instructions
 
-IMPORTANT: Make sure all 3 scripts are in the same folder. I'll call it tiktok_holding
+IMPORTANT: Make sure all 3 scripts are in the same folder. Let's call it tiktok_holding in this example.
 
-1. Transfer the camera roll photos to tiktok_holding folder
+1. Transfer the camera roll photos to tiktok_holding
 
-2. Open a bash terminal in that directory
+2. Open a bash terminal in tiktok_holding
 
 3. Run each of the scripts in order:
    
