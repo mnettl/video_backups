@@ -1,6 +1,6 @@
 ## Video Backup Scripts
 
-I am an avid user of Tiktok, and often download Tiktok videos to my phone for archival and reference (recipes, anyone?). Because I don't have enough space on my phone, I frequently move them off my phone and onto my computer. Once I transfer the camera roll to my computer, there are 3 console scripts that I use to wrangle the videos into archival form:
+Here are 3 console scripts I use to put Tiktok videos in archival form:
 
 1) **Separatepics.py** - Because Tiktok saves the videos in Android's camera roll, I had to find a way to separate my personal pictures and video from Tiktok videos. This script uses Python's OS subprocess to move my personal pictures and video to another folder called "pics."
 
