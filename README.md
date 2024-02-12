@@ -12,11 +12,11 @@ I am an avid user of Tiktok, and often download Tiktok videos to my phone for ar
 
 ## Instructions
 
-IMPORTANT: Make sure all 3 scripts are in the Desktop/tiktok_holding folder
+IMPORTANT: Make sure all 3 scripts are in the same folder. I'll call it tiktok_holding
 
-1. Transfer the camera roll photos to Desktop/tiktok_holding
+1. Transfer the camera roll photos to tiktok_holding folder
 
-2. Open a WSL Ubuntu terminal and navigate to that directory
+2. Open a bash terminal in that directory
 
 3. Run each of the scripts in order:
    
@@ -26,11 +26,9 @@ IMPORTANT: Make sure all 3 scripts are in the Desktop/tiktok_holding folder
    
    3. ``python3 writefilescsv.py``
 
-4. Transfer the video files to the final folder, and run the rclone backup script
-
-5. Open the Notion Tiktoks database, merge the ``csv.csv`` file
+4. Use the notion_csv_addpages script to merge csv.csv with the Notion database (https://github.com/mnettl/notion_csv_addpages)
    
-   
+5. Transfer the video files to their final directory
 
 ## Requirements
 
