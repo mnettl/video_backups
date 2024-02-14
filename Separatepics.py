@@ -1,4 +1,6 @@
 import subprocess
+from dotenv import load_dotenv
+import os
 
 # ls the camera pics and video (files that have underscores in the name), and add them to a list
 
@@ -16,7 +18,9 @@ def get_camera_pics_and_vids () -> list:
 
 
 def move_pics (filename):
-    cmd = ["mv " + filename + " /mnt/c/'Documents and Settings'/monet/Desktop/pics"]
+    load_dotenv()
+    dest_dir = os.environ['destination_dir']
+    cmd = ["mv " + filename + dest_dir]
     subprocess.run(cmd, shell=True)
 
 
